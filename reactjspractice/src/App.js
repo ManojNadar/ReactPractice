@@ -1,12 +1,13 @@
 import "./App.css";
+import AxiosComp from "./Components/AxiosComp";
 // import ClassState from "./Components/ClassState";
-import Sample from "../src/Components/Sample";
+// import Sample from "../src/Components/Sample";
 // import ClassComp from "./Components/ClassComp";
 
 // import StateFunc from "./Components/StateFunc";
 
 function App() {
-  let name = "manoj";
+  // let name = "manoj";
   // function NewUser() {
   //   return (
   //     <>
@@ -17,9 +18,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <h1>Hello React Axios</h1>
 
-      <Sample name={name} />
+      <AxiosComp />
+
+      {/* <Sample name={name} /> */}
       {/* {20 + 30} */}
       {/* <NewUser /> */}
       {/* {NewUser()} */}
