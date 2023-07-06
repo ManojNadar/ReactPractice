@@ -1,8 +1,9 @@
 import "./App.css";
-import AxiosComp from "./Components/AxiosComp";
+// import AxiosComp from "./Components/AxiosComp";
 // import ClassState from "./Components/ClassState";
 // import Sample from "../src/Components/Sample";
 // import ClassComp from "./Components/ClassComp";
+import Form from "./Components/Form";
 
 // import StateFunc from "./Components/StateFunc";
 
@@ -18,9 +19,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello React Axios</h1>
+      <Form />
+      {/* <h1>Hello React Axios</h1> */}
 
-      <AxiosComp />
+      {/* <AxiosComp /> */}
 
       {/* <Sample name={name} /> */}
       {/* {20 + 30} */}

@@ -20,7 +20,7 @@ export class ClassState extends Component {
       <>
         {/* <h1>Class State {this.state.name}</h1> */}
         <h1>Class State {this.state.data}</h1>
-        <button onClick={() => this.changeName()}>change name</button>
+        <button onClick={() => this.changeName()}>change num</button>
       </>
     );
   }
