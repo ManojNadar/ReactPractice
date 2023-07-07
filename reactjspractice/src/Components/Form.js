@@ -82,7 +82,7 @@ const Form = () => {
         </div>
 
         <div>
-          <input type="submit" value="Regsiter" />
+          <button type="submit">Submit</button>
         </div>
       </form>
 
